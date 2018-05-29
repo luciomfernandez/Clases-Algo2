@@ -1,4 +1,4 @@
-package Algo2;
+	package Algo2;
 
 public class Ciudad {
 	private String nombre;
@@ -11,7 +11,7 @@ public class Ciudad {
 	}
 	
 	public Ciudad() {
-		this("Buenos Aires",80000);
+		this("Buenos Aires",50000);
 	}
 	
 	public String obtNombre() {
