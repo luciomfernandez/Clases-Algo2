@@ -11,7 +11,7 @@ public class Ciudad {
 	}
 	
 	public Ciudad() {
-		this("Buenos Aires",450000);
+		this("Buenos Aires",460000);
 		System.out.println("Constr def");
 	}
 	
