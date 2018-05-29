@@ -16,7 +16,7 @@ public class MiClase {
 		
 		Scanner teclado =new Scanner(System.in);
 		System.out.println("Ingrese un numero");
-		
+		System.out.println("Cambio tu vieja");
 		
 	
 	}
