@@ -12,6 +12,7 @@ public class Ciudad {
 	
 	public Ciudad() {
 		this("Buenos Aires",50000);
+		System.out.println("Constr def");
 	}
 	
 	public String obtNombre() {
