@@ -11,7 +11,7 @@ public class Ciudad {
 	}
 	
 	public Ciudad() {
-		this("Buenos Aires",50000);
+		this("Buenos Aires",80000);
 	}
 	
 	public String obtNombre() {
