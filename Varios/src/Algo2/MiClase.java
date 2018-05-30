@@ -25,6 +25,8 @@ public class MiClase {
 		
 		System.out.println(arr2[0]);
 		
+		System.out.println("Tu vieja");
+		
 		Ciudad c1=new Ciudad();
 		Ciudad c2=new Ciudad("Roma",20000);
 		Ciudad c3=new Ciudad("Rosario",229292);
