@@ -17,7 +17,7 @@ public class MiClase {
 		c=Continente.AFRICA;
 		System.out.println(c);
 		System.out.println("HOLA MANOLA TE ESTAMOS LLAMANDO");
-		
+		System.out.println("lo cambie desde gitHub");
 		int[] arr=new int[30];
 		arr[0]=1;
 		System.out.println(arr[0]);
