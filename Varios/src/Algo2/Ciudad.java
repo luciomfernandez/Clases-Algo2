@@ -42,7 +42,7 @@ public class Ciudad {
 		
 	public String toString() {
 		
-			return this.nombre;
+			return "Ciudad: "+this.nombre+"Cant habitantes: "+this.cantHabitantes;
 				
 		
 	}
