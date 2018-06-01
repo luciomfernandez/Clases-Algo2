@@ -1,5 +1,6 @@
 package Algo2;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class MiClase {
 
@@ -12,6 +13,22 @@ public class MiClase {
 	
 	
 	public static void main(String[] args) {	
+		
+		ArrayList<String> nombres=new ArrayList<String>();
+		nombres.add("hola");
+		nombres.add("chau");
+		nombres.add("hola2");
+		
+		Iterator<String> it = nombres.iterator();
+		it.next();
+		it.remove();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
+		
+		
+		
 		Continente c;
 		System.out.println(Continente.AMERICA);
 		c=Continente.AFRICA;
