@@ -1,4 +1,4 @@
-	package Algo2;
+	package algo2;
 
 public class Ciudad {
 	private String nombre;

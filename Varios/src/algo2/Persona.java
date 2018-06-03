@@ -1,4 +1,4 @@
-package Algo2;
+package algo2;
 import java.util.ArrayList;
 public class Persona {
 	private String nombre;
