@@ -4,29 +4,26 @@ import java.util.ArrayList;
 import algo2.Ciudad;
 
 public class Docente extends Persona {
-	private Integer nroLu;
-	private ArrayList<Materia> listaMateriasAprobadas;
+	private String nombreCargo;
+	
 	
 	public Docente() {
 		
 	}
 	
-	public Docente(Integer nroLu,String nombre, Integer dni, Integer edad, Ciudad ciudadNacimiento) {
+	public Docente(String cargo,String nombre, Integer dni, Integer edad, Ciudad ciudadNacimiento) {
 		super(nombre,dni,edad,ciudadNacimiento);
-		this.nroLu=nroLu;
+		this. nombreCargo=cargo;
 	}
 	
-	public Integer getNroLu() {
-		return nroLu;
+	public String getCargo() {
+		return  nombreCargo;
 	}
 	
-	public void setNroLu(Integer nroLu) {
-		this.nroLu = nroLu;
-	}
-	
+
 	
 	public void printQuienSoy() {
-		System.out.println("Soy la clase Alumno");
+		System.out.println("Soy la clase Docente");
 	}
 	
 }

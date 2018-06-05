@@ -11,8 +11,9 @@ public class Alumno extends Persona {
 		
 	}
 	
-	public Alumno(Integer nroLu,String nombre, Integer dni, Integer edad, Ciudad ciudadNacimiento) {
+	public Alumno(Integer nroLu, ArrayList<Materia> materias,String nombre, Integer dni, Integer edad, Ciudad ciudadNacimiento) {
 		super(nombre,dni,edad,ciudadNacimiento);
+		listaMateriasAprobadas=materias;
 		this.nroLu=nroLu;
 	}
 	
@@ -27,6 +28,12 @@ public class Alumno extends Persona {
 	
 	public void printQuienSoy() {
 		System.out.println("Soy la clase Alumno");
+	}
+
+
+	
+	public Boolean esJoven() {
+		return listaMateriasAprobadas.size()>2;
 	}
 	
 }
