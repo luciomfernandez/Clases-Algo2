@@ -9,6 +9,12 @@ public class Persona {
 	private Ciudad ciudadNacimiento;
 	
 	
+	
+	
+	public Persona() {
+		nombre="Lucio";
+	}
+	
 	public Persona(String nombre, Integer dni, Integer edad, Ciudad ciudadNacimiento) {
 		this.nombre=nombre;
 		this.dni=dni;
@@ -54,4 +60,8 @@ public class Persona {
 		this.ciudadNacimiento = ciudadNacimiento;
 	}
 
+	public void printQuienSoy() {
+		System.out.println("Soy la clase Persona");
+	}
+	
 }

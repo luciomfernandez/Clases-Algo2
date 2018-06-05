@@ -3,15 +3,15 @@ import java.util.ArrayList;
 
 import algo2.Ciudad;
 
-public class Alumno extends Persona {
+public class Docente extends Persona {
 	private Integer nroLu;
 	private ArrayList<Materia> listaMateriasAprobadas;
 	
-	public Alumno() {
+	public Docente() {
 		
 	}
 	
-	public Alumno(Integer nroLu,String nombre, Integer dni, Integer edad, Ciudad ciudadNacimiento) {
+	public Docente(Integer nroLu,String nombre, Integer dni, Integer edad, Ciudad ciudadNacimiento) {
 		super(nombre,dni,edad,ciudadNacimiento);
 		this.nroLu=nroLu;
 	}
