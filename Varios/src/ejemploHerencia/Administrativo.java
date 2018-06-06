@@ -1,5 +1,5 @@
+package ejemploHerencia;
 import algo2.Ciudad;
-import ejemploHerencia.Persona;
 
 public class Administrativo extends Persona  {
 	private Integer cantPapeles;

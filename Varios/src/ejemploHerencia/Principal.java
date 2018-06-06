@@ -22,9 +22,11 @@ public class Principal {
 		Materia m3=new Materia("Sociales");
 		Materia m4=new Materia("Algebra");
 		
+		
 		 
 		ArrayList<Materia> materias= new ArrayList<Materia>();
 		 
+		
 		materias.add(m1);
 		materias.add(m2);
 		materias.add(m3);
