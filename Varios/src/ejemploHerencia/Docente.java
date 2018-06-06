@@ -7,9 +7,7 @@ public class Docente extends Persona {
 	private String nombreCargo;
 	
 	
-	public Docente() {
-		
-	}
+	public Docente() {}
 	
 	public Docente(String cargo,String nombre, Integer dni, Integer edad, Ciudad ciudadNacimiento) {
 		super(nombre,dni,edad,ciudadNacimiento);
@@ -20,6 +18,9 @@ public class Docente extends Persona {
 		return  nombreCargo;
 	}
 	
+	public void marcar() {
+		System.out.println("Docente marca");
+	} 
 
 	
 	public void printQuienSoy() {

@@ -30,6 +30,10 @@ public class Alumno extends Persona {
 		System.out.println("Soy la clase Alumno");
 	}
 
+	public void marcar() {
+		System.out.println("Alumno marca");
+	} 
+
 
 	
 	public Boolean esJoven() {

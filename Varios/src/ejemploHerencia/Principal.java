@@ -14,12 +14,9 @@ public class Principal {
 	
 	public static void main(String[] args) {
 		
-		
-		
-		Persona p1= new Persona();
-		
+			
 	
-		
+				
 		Materia m1=new Materia("Matematica");
 		Materia m2=new Materia("Lengua");
 		Materia m3=new Materia("Sociales");
@@ -36,12 +33,11 @@ public class Principal {
 		Ciudad c1 = new Ciudad("Buenos Aires",20000);
 		
 		Alumno a1=new Alumno(235,materias,"Lucio",39999,10,c1);
+		Docente d1=new Docente("Director","Lucio",39999,10,c1);
 
-
-		Principal.funcPrueba(a1);
 		
-		//System.out.println(a1.esJoven());
-		
+		d1.marcar();
+				
 		
 	
 	
