@@ -21,7 +21,7 @@ public class Principal {
 		Materia m2=new Materia("Lengua");
 		Materia m3=new Materia("Sociales");
 		Materia m4=new Materia("Algebra");
-		
+		Materia m5=new Materia("Algebra");	
 		
 		 
 		ArrayList<Materia> materias= new ArrayList<Materia>();
