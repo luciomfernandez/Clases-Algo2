@@ -36,16 +36,21 @@ public class Principal {
 		
 		Alumno a1=new Alumno(235,materias,"Lucio",39999,10,c1);
 		Docente d1=new Docente("Director","Lucio",39999,10,c1);
-
+		
 		//UP CASTING
 		Persona p=a1;
+		Persona p2=d1;
+		
+		
+		
+		p.printQuienSoy();
 		
 		//DOWN CASTING
 		Alumno a2=(Alumno)p;
 		
 		
 		a2.printQuienSoy();
-				
+		
 	
 	}
 

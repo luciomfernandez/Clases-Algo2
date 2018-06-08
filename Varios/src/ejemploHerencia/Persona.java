@@ -17,7 +17,6 @@ public abstract class  Persona {
 	
 	
 	
-	
 	public Persona(String nombre, Integer dni, Integer edad, Ciudad ciudadNacimiento) {
 		this.nombre=nombre;
 		this.dni=dni;
@@ -28,6 +27,14 @@ public abstract class  Persona {
 	
 	
 	public abstract void marcar();
+	
+	public boolean equals(Object objt) {
+		if(objt instanceof Persona) {
+			return nombre.equals(((Persona)objt).getNombre()) && ciudadNacimiento.equals(((Persona)objt).getCiudadNacimiento()) && dni.equals(((Persona)objt).getDni()) && edad.equals(((Persona)objt).getEdad());
+		}else {
+			return false;
+		}
+	}
 	
 	
 	
