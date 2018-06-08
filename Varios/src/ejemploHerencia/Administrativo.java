@@ -21,4 +21,8 @@ public class Administrativo extends Persona  {
 	}
 
 
+	public void printQuienSoy() {
+		System.out.println("Soy la clase Administrativo");
+	};
+
 }

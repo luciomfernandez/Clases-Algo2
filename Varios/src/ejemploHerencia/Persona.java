@@ -67,8 +67,8 @@ public abstract class  Persona {
 		this.ciudadNacimiento = ciudadNacimiento;
 	}
 
-	public void printQuienSoy() {
-		System.out.println("Soy la clase Persona");
-	}
+	public  abstract void printQuienSoy(); //{
+		//System.out.println("Soy la clase Persona");
+	//}
 	
 }
