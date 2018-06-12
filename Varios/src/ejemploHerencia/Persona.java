@@ -9,12 +9,11 @@ public abstract class  Persona {
 	private Ciudad ciudadNacimiento;
 	
 	
-	
+	 
 	
 	public Persona() {
 		nombre="Lucio";
 	}
-	
 	
 	
 	public Persona(String nombre, Integer dni, Integer edad, Ciudad ciudadNacimiento) {

@@ -14,9 +14,7 @@ public class Principal {
 	
 	public static void main(String[] args) {
 		
-		
-		
-		
+	
 		
 		Materia m1=new Materia("Matematica");
 		Materia m2=new Materia("Lengua");
@@ -48,10 +46,22 @@ public class Principal {
 		//DOWN CASTING
 		Alumno a2=(Alumno)p;
 		
-		
 		a2.printQuienSoy();
 		
 	
 	}
 
 }
+
+
+
+//Extender tipos generics:
+// class MiClase<T> extends ArrayList<T>
+//class MiClase extends ArrayList<Integer>
+//class Diccionario extends HashMap<Char, ArrayList<String>>
+//class DiccioEntero<V> extends HashMap<Integer, V>
+
+
+
+//Las interfaces no osn clases, sus metodos no tienen cuerpo ({}), no tienen atributos, no tienen constructores
+//Las interfaces agrupan comportamiento
