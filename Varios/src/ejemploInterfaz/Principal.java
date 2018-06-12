@@ -12,7 +12,7 @@ public class Principal {
 		v=s;
 		
 		v.volar();
-		
+		((SuperMan)v).caminar();
 		
 
 	}
