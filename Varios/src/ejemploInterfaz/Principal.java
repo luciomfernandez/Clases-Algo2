@@ -1,7 +1,10 @@
 package ejemploInterfaz;
+import java.util.Iterator;;
 
 public class Principal {
-
+	
+	
+	
 	public static void main(String[] args) {
 		 Volador v=new SuperMan();
 		SuperMan s =new SuperMan();
@@ -18,3 +21,30 @@ public class Principal {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//PRODUCTO
+//MAQUINA
+//COMPRARMATERIASPRIMA() 
+//COMENZARAFABRICAR() FINDEUNAFABRICACIONEXISTENTE();
+//STOCK
+//VENDER()
