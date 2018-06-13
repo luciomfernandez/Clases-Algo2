@@ -12,8 +12,12 @@ public class Principal {
 		pepe.add("PEPE");
 		
 		Iterator<String> it=pepe.iterator();
+		
+		Generador gr=new Generador(5,20,4);
+		
+		
 		Iterador.imprimirIterador(it);
-
+		Iterador.imprimirIterador(gr);
 	}
 
 }
